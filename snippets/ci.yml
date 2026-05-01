@@ -33,11 +33,7 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Type check
-        run: npm run typecheck
-
-      - name: Run CI scripts
-        run: npm run ci
+      # add your steps here, e.g. lint, test, build etc.
 
       - name: Compute image tag
         id: meta
